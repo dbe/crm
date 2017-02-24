@@ -39,4 +39,6 @@ gem 'haml-rails'
 gem 'pg'
 
 #Added by Brian
-gem 'google-api-client'
+gem 'google_contacts_api'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
