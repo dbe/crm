@@ -40,5 +40,4 @@ gem 'pg'
 
 #Added by Brian
 gem 'google_contacts_api'
-gem 'omniauth'
 gem 'omniauth-google-oauth2'
