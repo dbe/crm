@@ -20,6 +20,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'pry-rails'
   gem 'pry-rescue'
+  gem 'pry-nav'
 end
 
 group :development do
