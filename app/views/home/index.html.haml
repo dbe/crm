@@ -2,5 +2,8 @@
   - if !user_signed_in?
     %h1
       Sign in with Google!
-
-  index for home controller
+  - else
+    - @contacts.in_groups_of(3, false).each do |group|
+      .row
+        - group.each do |contact|
+          = render partial: "contacts/card", locals: {contact: contact}
